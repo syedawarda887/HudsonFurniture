@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 00
+  }
+  
+  .superNav {
+    font-size: 13px;
+  }
+  
+  .form-control {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .left-align {
+    list-style-position: inside;
+    list-style-type: disc;
+  }
+  
+form {
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #ffc107;
+    width: 100px;
+   border-color: #ffc107;
+  
+  }
+  button:hover{
+    background-color: gray;
+    border-color: gray;
+
+  }
+  .offer{
+          height: 550px;
+          width: auto;
+         
+      justify-content: center;
+      text-align: center;
+      background-image: url(./images/ban2.jpg);
+  }
+ 

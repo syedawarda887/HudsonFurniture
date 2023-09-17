@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 00
+  }
+  
+  .superNav {
+    font-size: 13px;
+  }
+  
+  .form-control {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+
+  .famy{
+    display: flex;
+    justify-content: center;
+    
+        width: 350px;
+        padding: 20px;
+        border: 1px solid #ccc;
+       font-weight: 500;
+        background-color: #f9f9f9;
+  
+  }
+  .famy button{
+    background-color: #ffc107;
+    width: 100px;
+    border-color: #ffc107;
+        padding: 5px;
+      margin-top: 2px;
+  }
+  .famy button:hover{
+    background-color: gray;
+    border-color: gray;
+  }
+  

@@ -1,0 +1,393 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  font-size: 14px;
+  font-weight: 00
+}
+
+.superNav {
+  font-size: 13px;
+}
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.categs>h3 {
+  color: gray;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* .img1 {
+  height: 400px;
+  width: 100%;
+  margin: 12px;
+  margin-left: 3px;
+  background-image: url(./img/bed_f3_620x400.jpg);
+  background-repeat: no-repeat;
+  transition: transform .2s;
+}
+
+.img1:hover {
+  transform: scale(1.06);
+}
+
+.img2 {
+  height: 400px;
+  width: 100%;
+  margin: 12px;
+  background-image: url(./img/sofa.jpg);
+  background-repeat: no-repeat;
+  transition: transform .2s;
+  margin-left: 0px;
+}
+
+.img2:hover {
+  transform: scale(1.06);
+}
+
+
+
+.img3 {
+  height: 400px;
+  width: 100%;
+
+  margin: 12px;
+  background-image: url(./img/dinnin_g_2_620x400.jpg);
+  background-repeat: no-repeat;
+  margin-left: 3px;
+  transition: transform .2s;
+}
+
+.img3:hover {
+  transform: scale(1.06);
+}
+
+
+.img4 {
+  height: 400px;
+  width: 100%;
+  margin: 12px;
+  background-image: url(./img/office_2_620x400.jpg);
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  transition: transform .2s;
+}
+
+.img4:hover {
+  transform: scale(1.06);
+}
+
+.anker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 400px;
+
+
+}
+
+.anker:hover {
+  color: white;
+} */
+
+
+
+/* Categories */
+
+
+
+
+.middle{
+  /* transition: .5s ease; */
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middle .text{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+ .img-hover:hover.imagine {
+  opacity: 0.3;
+}
+
+.img-hover:hover .middle {
+  opacity: 1;
+}
+
+
+/* 
+
+.p1 {
+  height: 280px;
+  background-image: url(./images/pro\ bed.jpeg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+
+}
+
+.p2 {
+  height: 280px;
+  background-image: url(./images/probed2.jpeg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+}
+
+.p3 {
+  height: 279px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-image: url(./images/pro\ off.jpeg);
+  background-repeat: no-repeat;
+
+}
+
+.p4 {
+  height: 280px;
+  background-image: url(./images/pro\ dinf.jpeg);
+  background-repeat: no-repeat;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.p5 {
+  height: 280px;
+  background-image: url(./images/pro\ shelf.jpeg);
+  background-repeat: no-repeat;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.p6 {
+  height: 280px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  background-image: url(./images/pro\ chair.jpeg);
+  background-repeat: no-repeat;
+
+} */
+
+.types {
+  font-weight: 100;
+  color: gray;
+}
+
+.head2 {
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.text1 {
+  font-weight: 100;
+  color: gray;
+  text-align: center;
+}
+
+/* responsiveness of vedio */
+.vedio-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+
+  margin: 20px;
+}
+
+.vedio-container iframe {
+  position: absolute;
+  top: 0;
+
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:768px) {
+  .vedio-container {
+    padding-bottom: 75%;
+  }
+}
+.offer{
+  margin-top:  50px;
+        height: 500px;
+        width: auto;
+        background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./images/best.jpg);
+}
+
+
+
+
+@media screen and (max-width:540px) {
+  .centerOnMobile {
+    text-align: center
+  }
+}
+
+/* testi */
+
+
+
+
+
+.head3 {
+ 
+  color: gray;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: -15px;
+}
+
+.testimonial-inner {
+  position: relative;
+  top: 30px
+}
+
+.testimonial-pos {
+  position: relative;
+  top: 24px
+}
+
+.testimonial-inner .tour-desc {
+  border-radius: 5px;
+  padding: 40px
+}
+
+.color-grey-3 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none
+}
+
+.link-name {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  color: #6c83a2
+}
+
+.link-position {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  color: #6c83a2
+}
+/* servc */
+/* .p7{
+  height: 370px;
+ 
+ background-color: pink;
+ background-repeat: no-repeat;
+
+}
+
+.p8{
+ height: 370px;
+
+ background-color: gray;
+ background-repeat: no-repeat;
+}
+
+.p9{
+ height: 370px;
+ background-color: greenyellow;
+
+ background-repeat: no-repeat;
+ 
+}
+
+.p10{
+ height: 370px;
+ 
+ background-repeat: no-repeat;
+ background-color: pink;
+
+}
+.p11{
+ height: 370px;
+ 
+ background-repeat: no-repeat;
+ background-color: gray;
+
+}
+
+.p12{
+ height: 370px;
+ background-color: greenyellow;
+ 
+ background-repeat: no-repeat;
+ 
+} */
+.offer2{
+  margin-top:  50px;
+  height: 500px;
+  width: auto;
+  background-color: aqua;
+justify-content: center;
+text-align: center;
+background-image: url(./images/deal.jpg);
+}
+
+
+@media only screen and (max-width:797px) {
+  .carousel-inner{
+    height: 300px !important;
+  }
+  .home .carousel-item h3{
+    font-size: 30px;
+    /* padding-top: -50px; */
+  }
+  .home .carousel-item .container{
+    top: 152px;
+  }
+  .home .carousel-indicators li{
+    height: 30px;
+    width: 30px;
+  }
+  .cardsmage img{
+    height: 200px;
+    width: 100%;
+  }
+  .parent img{
+    width: 50%;
+  }
+}
+@media only screen and (max-width:500px) {
+.parent img{
+  width: 50%;
+}
+
+}

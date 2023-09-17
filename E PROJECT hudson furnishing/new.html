@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+          .middle {
+    /* transition: .5s ease; */
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .middle .text{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+  }
+   .img-hover:hover.imagine {
+    opacity: 0.3;
+  }
+  
+  .img-hover:hover .middle {
+    opacity: 1;
+  }
+</style>
+
+
+<div class="container" >
+    <h1>Today's top</h1>
+  </div>
+
+  <div class="container-fluid   mt-3" style="padding: 50px;">
+    <div class="row">
+      <div class="col-md-6 col-6 mt-2">
+        <a href="./bedroom.html">
+       
+        <div class="img-hover"> 
+          <img src="img/bed_f3_620x400.jpg" alt="" width="100%" class="image-fluid">
+          <div class="middle">
+            <div class="text">Bed Room </div>
+          </div>
+        </div>
+    </a>
+      </div>
+      <div class="col-md-6 col-6 mt-2">
+        <a href="./lounge.html">
+        <div class="img-hover">
+          <img src="img/sofa.jpg" width="100%" alt="" class="image-fluid">
+          <div class="middle">
+            <div class="text">Sofa Set </div>
+          </div>
+        </div>
+    </a>
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <!-- 2nd section -->
+  <!-- <div class="container-fluid  mt-3" "> -->
+    <div class="row mt-3" >
+      <div class="col-md-6 col-6 mt-2">
+        <a href="./dining.html">
+        <div class="img-hover">
+          <img src="img/dinnin_g_2_620x400.jpg" alt="" width="100%" class="image-fluid">
+          <div class="middle">
+            <div class="text">Dinning Room</div>
+          </div>
+        </div>
+    </a>
+      </div>
+      <div class="col-md-6 col-6 mt-2">
+        <a href="">
+        <div class="img-hover">
+          <img src="img/office_2_620x400.jpg" width="100%" alt="" class="image-fluid">
+          <div class="middle">
+            <div class="text">Office Room </div>
+          </div>
+        </div>
+    </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

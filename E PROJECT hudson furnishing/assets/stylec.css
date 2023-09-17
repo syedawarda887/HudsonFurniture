@@ -1,0 +1,58 @@
+.p1{
+    height: 280px;
+    background-image: url(./images/pro\ bed.jpeg);
+    background-color: pink;
+    background-repeat: no-repeat;
+   
+  }
+  
+  .p2{
+    height: 280px;
+    background-image: url(./images/probed2.jpeg);
+    background-color: gray;
+    background-repeat: no-repeat;
+  }
+  
+  .p3{
+    height: 279px;
+    background-color: greenyellow;
+    background-image: url(./images/pro\ off.jpeg);
+    background-repeat: no-repeat;
+    
+  }
+  
+  .p4{
+    height: 280px;
+    background-image: url(./images/pro\ dinf.jpeg);
+    background-repeat: no-repeat;
+    background-color: pink;
+   
+  }
+  .p5{
+    height: 280px;
+    background-image: url(./images/pro\ shelf.jpeg);
+    background-repeat: no-repeat;
+    background-color: gray;
+  
+  }
+
+  .p6{
+    height: 280px;
+    background-color: greenyellow;
+    background-image: url(./images/pro\ chair.jpeg);
+    background-repeat: no-repeat;
+    
+  }
+  .types{
+    font-weight:100 ;
+    color: gray;
+  }
+  .head2{
+    text-align: center;
+     margin-top: 20px; 
+    color: gray;
+     font-size: 50px;
+     font-weight: 500; 
+      font-style: italic;
+  }
+  

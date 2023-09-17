@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 00
+  }
+  
+  .superNav {
+    font-size: 13px;
+  }
+  
+  .form-control {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  h3{
+    color: #ffc107;
+  }

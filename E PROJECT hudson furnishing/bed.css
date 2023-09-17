@@ -1,0 +1,44 @@
+a {
+    font-size:14px;
+    font-weight:00
+  }
+  .superNav {
+    font-size:13px;
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  
+  
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+  .head2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffc107;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .card {
+    width: 18rem;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  .card-body {
+    text-align: center;
+  }
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .card-text {
+    margin-bottom: 10px;
+  }
+  .btn2 {
+    width: 100%;
+  }

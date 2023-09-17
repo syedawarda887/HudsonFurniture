@@ -1,0 +1,156 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+   
+       
+  }
+  .bannerun{
+    background-color: rgba(67, 67, 67, 0.835);
+    width: 100%;
+    height: 200px;
+}
+.bannerun h2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 40px;
+
+}
+.bannerun p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:#ffc107;
+    font-size: 20px;
+  
+}
+.bbtn{
+
+left: 40%;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+top: -20px;
+        background: #ffc107;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        height:45px;
+        width: 15%;
+        font-size: 20px;
+        font-weight: 100;
+        color:#ffffff;
+        cursor: pointer;
+        font-weight:500;
+        transition: transform .3s; /* Animation */
+    }
+   .bbtn:hover{
+        background-color:#ffc107c3;
+        transform: scale(1.2);
+
+   
+}
+.bannerun p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+    width: 400px;
+    font: 200px;
+  }
+  
+  #about {
+    height: 80px;
+    top: 150px;
+    background-color:#000000b4;
+  }
+  #mySidenav #about {
+   color: #ffc107;
+   font-size: 20px;
+   font-weight: bold;
+  }
+  #mySidenav #about :hover{
+ 
+   width: 200px;
+   }
+ 
+ 
+  
+  #blog {
+    height: 80px;
+    top: 250px;
+    background-color: #ffc107a4;
+  }
+  #mySidenav #blog {
+    color: #000000b4;
+    font-size: 20px;
+    font-weight: bold
+   }
+  
+  #projects {
+    height: 80px;
+    top: 350px;
+    background-color: #000000b4;
+  }
+  #mySidenav #projects {
+    color:#ffc107;
+    font-size: 20px;
+    font-weight: bold
+   }
+
+  #contact {
+    height: 80px;
+    top: 450px;
+    background-color:#ffc107a4;
+  }
+  #mySidenav #contact {
+    color: #000000b4;
+    font-size: 20px;
+    font-weight: bold
+   }
+   img{
+    max-width: 100%;
+  }
+  .gallery{
+    background-color: #ffc107;
+    padding: 80px 0;
+  }
+  .gallery img{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    /* transition: transform .3s; */
+   
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  
+  .gallery .col img{
+    transition: transform .3s;
+  }
+  .gallery .col img:hover{
+   
+    transform: scale(1.1);
+  }
+  #gallery-modal .modal-img{
+    width: 100%;
+  } 
+             
+  
+  
+ 
+  
+ 
